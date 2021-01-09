@@ -1,9 +1,7 @@
-import React from 'react';
-import Hello from 'components/Hello';
-
-
-const Home: React.FC = () => {
-  return <Hello></Hello>;
+export default function Home (): JSX.Element {
+  return (
+    <div>
+      <h1>Hello World!</h1>
+    </div>
+  );
 }
-
-export default Home;
