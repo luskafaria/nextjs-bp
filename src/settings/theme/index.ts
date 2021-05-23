@@ -1,17 +1,20 @@
-import { theme as chakraUITheme } from "@chakra-ui/theme";
-
+import textStyles from "./textStyles";
 import fontSizes from "./fontSizes";
-import { Theme } from "./types";
 import colors from "./colors";
+import styles from "./styles";
 import fonts from "./fonts";
-import sizes from "./sizes";
 
-const theme: Theme = {
-  ...chakraUITheme,
-  fontSizes,
-  colors,
-  fonts,
-  sizes,
-};
+import merge from "deepmerge"
+import { theme as baseTheme } from "@chakra-ui/theme";
+
+const theme = merge(
+  baseTheme,
+  {
+    textStyles,
+    fontSizes,
+    colors,
+    styles,
+    fonts,
+  });
 
 export default theme;

@@ -1,17 +1,18 @@
-import { theme as chakraUiTheme } from "@chakra-ui/theme";
+import { theme as chakraUiTheme, ChakraTheme } from "@chakra-ui/theme";
 
-import { ThemeFontSizes } from "./types";
 
-const fontSizes: ThemeFontSizes = {
+const fontSizes: ChakraTheme["fontSizes"] = {
   ...chakraUiTheme.fontSizes,
-  xxs: "10pt",
-  xs: "12pt",
-  sm: "14pt",
-  md: "16pt",
-  lg: "18pt",
-  xl: "20pt",
-  "2xl": "24pt",
-  "3xl": "26pt",
+  xs: "12px",
+  sm: "14px",
+  md: "16px",
+  lg: "18px",
+  xl: "20px",
+  "2xl": "24px",
+  "3xl": "26px",
+  "4xl": "28px",
+  "5xl": "30px",
+  "6xl": "32px",
 };
 
 export default fontSizes;

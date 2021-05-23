@@ -1,12 +1,12 @@
-import { theme as chakraUiTheme } from "@chakra-ui/theme";
+import { theme as chakraUiTheme, ChakraTheme } from "@chakra-ui/react";
 
-import { ThemeFonts } from "./types";
 
-const fonts: ThemeFonts = {
+const fonts: ChakraTheme["fonts"] = {
   ...chakraUiTheme.fonts,
-  heading: "Montserrat Bold, sans-serif",
-  body: "Muli Regular, sans-serif",
-  light: "LibreFranklin Light, sans-serif",
+  heading: "Roboto Bold, sans-serif",
+  medium: "Roboto Medium, sans-serif",
+  body: "Roboto Regular, sans-serif",
+  light: "Roboto Light, sans-serif",
 };
 
 export default fonts;
