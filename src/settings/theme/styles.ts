@@ -7,9 +7,9 @@ const styles: ChakraTheme["styles"] = {
     body: {
       color: "gray.400",
       bg: "background.100",
-      fontFamily: "Roboto Regular, sans-serif",
-    },
-  }),
+      fontFamily: "Roboto Regular, sans-serif"
+    }
+  })
 };
 
 export default styles;

@@ -1,9 +1,16 @@
-import { Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 
 export default function Home (): JSX.Element {
   return (
-    <div>
+    <Flex>
       <Text>Hello World!</Text>
-    </div>
+      {
+        true && (
+          <Flex>
+            <Text>Oi</Text>
+          </Flex>
+        )
+      }
+    </Flex>
   );
 }

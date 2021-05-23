@@ -1,35 +1,35 @@
 import { ChakraTheme } from "@chakra-ui/react";
 
 const baseTextStyle = {
-  fontFamily: "bold",
+  fontFamily: "bold"
 };
 
 const textStyles: ChakraTheme["textStyles"] = {
   h1: {
     ...baseTextStyle,
     fontSize: "xl",
-    lineHeight: "32px",
+    lineHeight: "32px"
   },
   h2: {
     ...baseTextStyle,
     fontSize: "lg",
-    lineHeight: "22px",
+    lineHeight: "22px"
   },
   h3: {
     ...baseTextStyle,
     fontSize: "md",
-    lineHeight: "20px",
+    lineHeight: "20px"
   },
   p: {
     fontSize: "sm",
     lineHeight: "18px",
-    fontFamily: "regular",
+    fontFamily: "regular"
   },
   small: {
     fontSize: "xs",
     lineHeight: "16px",
-    fontFamily: "regular",
-  },
+    fontFamily: "regular"
+  }
 };
 
 export default textStyles;

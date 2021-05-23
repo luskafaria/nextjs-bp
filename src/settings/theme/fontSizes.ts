@@ -1,6 +1,5 @@
 import { theme as chakraUiTheme, ChakraTheme } from "@chakra-ui/theme";
 
-
 const fontSizes: ChakraTheme["fontSizes"] = {
   ...chakraUiTheme.fontSizes,
   xs: "12px",
@@ -12,7 +11,7 @@ const fontSizes: ChakraTheme["fontSizes"] = {
   "3xl": "26px",
   "4xl": "28px",
   "5xl": "30px",
-  "6xl": "32px",
+  "6xl": "32px"
 };
 
 export default fontSizes;

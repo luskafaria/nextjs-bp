@@ -1,3 +1,4 @@
-!.eslintrc.js
+!.eslintrc.json
 node_modules/
 build/
+.next/

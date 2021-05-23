@@ -1,6 +1,5 @@
 import { theme as chakraUiTheme, ChakraTheme } from "@chakra-ui/react";
 
-
 const PRIMARY_COLOR = "#FD5720";
 const PRIMARY_COLOR_LIGHT = "#FFD8CB";
 
@@ -30,7 +29,7 @@ const colors: ChakraTheme["colors"] = {
     600: PRIMARY_COLOR,
     700: PRIMARY_COLOR,
     800: PRIMARY_COLOR,
-    900: PRIMARY_COLOR,
+    900: PRIMARY_COLOR
   },
   secondary: {
     50: SECONDARY_COLOR_LIGHT,
@@ -42,14 +41,14 @@ const colors: ChakraTheme["colors"] = {
     600: SECONDARY_COLOR,
     700: SECONDARY_COLOR,
     800: SECONDARY_COLOR,
-    900: SECONDARY_COLOR,
+    900: SECONDARY_COLOR
   },
   gray: {
     ...chakraUiTheme.colors.gray,
     100: LIGHTEST_GRAY,
     200: LIGHT_GRAY,
     300: GRAY,
-    400: DARK_GRAY,
+    400: DARK_GRAY
   },
   warning: {
     50: "#FFFBEB",
@@ -61,7 +60,7 @@ const colors: ChakraTheme["colors"] = {
     600: "#DEB602",
     700: "#CAA502",
     800: "#B69502",
-    900: "#A28402",
+    900: "#A28402"
   },
   success: {
     50: "#E0F5E7",
@@ -73,7 +72,7 @@ const colors: ChakraTheme["colors"] = {
     600: "#3BBA65",
     700: "#319B54",
     800: "#2C8C4C",
-    900: "#226D3B",
+    900: "#226D3B"
   },
   error: {
     50: "#FBDADA",
@@ -85,14 +84,14 @@ const colors: ChakraTheme["colors"] = {
     600: "#EE5959",
     700: "#EC4646",
     800: "#DE3939",
-    900: "#B92626",
+    900: "#B92626"
   },
   background: {
     100: LIGHTEST_GRAY,
     200: LIGHT_GRAY,
     300: GRAY,
-    400: DARK_GRAY,
-  },
+    400: DARK_GRAY
+  }
 };
 
 export default colors;
