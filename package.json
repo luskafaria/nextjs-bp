@@ -9,7 +9,8 @@
     "linter": "eslint src --ext=js,jsx,ts,tsx",
     "lint": "yarn run linter && yarn run check-types",
     "lint.fix": "yarn run linter --fix && yarn run check-types",
-    "check-types": "tsc --noemit"
+    "check-types": "tsc --noemit",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.2",
@@ -32,6 +33,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-react": "^7.23.2",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "husky": "^6.0.0"
   }
 }
